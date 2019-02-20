@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+/*font size by default is 16 pixels */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  /* em is multiplied by parent element so this is 16 times 1.6*/
+  line-height:1.6em;
+}
+
+#welcome p span{
+  font-weight: bold;
+}
+#about p span{
+  font-style: italic;
+}
