@@ -1,0 +1,30 @@
+/* Element Selectors */
+/* body styling */
+body {
+  background-color: #333;
+}
+/* . for Class */
+/*Also remember naming convention for good semantic practice*/
+.prymary-heading {
+  color: green;
+}
+/* # for id */
+#welcome {
+  background-color: #f4f4f4;
+}
+/* Multiple Selector */
+#welcome, #about {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+#about {
+  color: white;
+}
+
+/* Nested Selector */
+
+#welcome p {
+  font-size: 20px;
+}
