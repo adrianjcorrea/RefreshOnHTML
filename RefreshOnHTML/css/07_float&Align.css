@@ -1,0 +1,44 @@
+*{
+    /*This resets the standard padding so that padding is not added to width*/
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4em;
+}
+
+.container{
+    /* max for responsive design */
+    max-width: 960px;
+    /*margin 30 pixels top/bottom and auto is centered margin*/
+    margin:30px auto;
+}
+/*Clearing the 2 las divs box 2 and 3 so box 4 dosent set behing them.*/
+.clr{
+    clear: both;
+}
+
+.box{
+    background: #f4f4f4;
+    border:1px solid #333;
+    padding: 20px;
+    margin-top: 10px;
+
+}
+
+.box p{
+    /*text lign*/
+    /*justify will make the edges all even*/
+    text-align: justify;
+    text-align: center;
+}
+
+#box2{
+    float:left;
+    width:68%;
+}
+
+#box3{
+    float:right;
+    width:30%;
+}
