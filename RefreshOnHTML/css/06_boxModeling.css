@@ -1,0 +1,35 @@
+/*RESETING DEFAULT PADDING*/
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+.box {
+ background-color: #f4f4f4;
+ border: 2px #7777 solid;
+ width: 500PX;
+ /*PAdding on all sides*/
+ padding: 20px;
+ /*Padding per side*/
+ padding-top:10px;
+ padding-right:20px;
+ padding-bottom:10px;
+ padding-left:20px;
+ /*Padding short hand top-right-bottom-left*/
+ padding:10px 20px 10px 20px;
+ /*padding short hand bottom/top right/left*/
+ padding: 10px 20px;
+
+ /*Margin on all sides*/
+ margin:20px;
+ /*margin per side*/
+ margin-top:5px;
+ margin-right:20px;
+ margin-bottom:5px;
+ margin-left:20px;
+ /*margin short hand top-right-bottom-left*/
+ margin:5px 20px 5px 20px;
+ /*margin short hand bottom/top right/left*/
+ margin: 10px 20px;
+}
+
