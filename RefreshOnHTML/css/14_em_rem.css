@@ -1,0 +1,33 @@
+   /* Not convenient to use EM do to multipling by parent tag.
+   Each time a higer ancestor is added so will multibility be increased
+   to grandChild tag.
+   */
+   /* #box-1 {
+      font-size: 20px;
+    }
+
+    #box-1 p {
+      font-size: 1.5em;
+      padding: 1em;
+    }
+
+    #box-1 ul {
+      font-size: 1.2em;
+    } */
+
+    /*REM will multiply by root tag meaning html tag default 16px ,
+    otherwise if changed size will be multiplied for its customized size. 
+    */
+
+    html {
+      font-size: 62.5%;
+    }
+
+    #box-2 h3 {
+      font-size: 2.3rem;
+    }
+
+    #box-2 p {
+      font-size: 1.6rem;
+      line-height: 1.7rem;
+    }
