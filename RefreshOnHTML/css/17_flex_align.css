@@ -1,0 +1,34 @@
+#container {
+    /* Align items horizontal*/
+    background: #555;
+    display: flex;
+    justify-content: space-evenly;
+    /*
+       Options:
+       flex-start
+       flex-end
+       center
+       space-between
+       space-around
+       space-evenly
+    */
+    height: 600px;
+    /* Align items vertical (must have a height)*/
+    align-items: baseline;
+    /*
+       Options:
+       flex-start
+       flex-end
+       center
+       baselight
+       strech
+    */
+}
+
+.item {
+background: #f4f4f4;
+border: #ccc 1px solid;
+text-align: center;
+padding: 1rem;
+margin: 0.5rem;
+}
