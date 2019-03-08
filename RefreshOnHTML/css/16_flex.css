@@ -1,0 +1,18 @@
+#container{
+    display: flex;
+
+}
+
+.item{
+background: #f4f4f4;
+border: #ccc solid 1px;
+padding:1rem;
+text-align: center;
+flex:1;
+margin: 0.57rem;
+
+}
+
+.item:first-child {
+    flex: 3;
+}
