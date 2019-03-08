@@ -1,0 +1,60 @@
+/* Use this to check that media query property is connected properly
+
+body {
+    display: none;
+}
+*/
+
+#navbar .logo{
+    float: none;
+    text-align: center
+}
+
+#navbar ul, #navbar ul li {
+    float: none;
+}
+
+#navbar ul li a{
+    padding: 5px;
+    border: dotted 1px 	rgb(72, 72, 72);
+}
+
+/* Home Info */
+#home-info {
+    height: 570px;
+  }
+
+  #home-info .info-img {
+    display: none;
+  }
+  
+  #home-info .info-content {
+    float: none;
+    width: 100%;
+  }
+
+  .box {
+    float: none;
+    width: 100%;
+    border: dotted 1px rgb(72, 72, 72);
+  }
+  
+  #about-info .info-right,
+  #about-info .info-left {
+    float: none;
+    width: 100%;
+  }
+
+  #about-info .info-right {
+    margin-top: 30px;
+  }
+
+  .l-heading{
+    text-align: center;
+  }
+
+  #testimonials {
+padding-top: 60px;
+  }
+
+  
